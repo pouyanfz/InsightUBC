@@ -1,0 +1,71 @@
+{
+	"title": "Simple max test",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"maxgrade"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_year"
+			],
+			"APPLY": [
+				{
+					"maxgrade": {
+						"MAX": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_year": 1900,
+			"maxgrade": 99.78
+		},
+		{
+			"sections_year": 2007,
+			"maxgrade": 97.67
+		},
+		{
+			"sections_year": 2008,
+			"maxgrade": 96.94
+		},
+		{
+			"sections_year": 2009,
+			"maxgrade": 99.78
+		},
+		{
+			"sections_year": 2010,
+			"maxgrade": 98.58
+		},
+		{
+			"sections_year": 2011,
+			"maxgrade": 98.71
+		},
+		{
+			"sections_year": 2012,
+			"maxgrade": 99.19
+		},
+		{
+			"sections_year": 2013,
+			"maxgrade": 98.5
+		},
+		{
+			"sections_year": 2014,
+			"maxgrade": 98.8
+		},
+		{
+			"sections_year": 2015,
+			"maxgrade": 98.98
+		},
+		{
+			"sections_year": 2016,
+			"maxgrade": 97.25
+		}
+	]
+}

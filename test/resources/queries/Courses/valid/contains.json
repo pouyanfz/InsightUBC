@@ -1,0 +1,6290 @@
+{
+    "title": "SELECT cpsc dept, avg WHERE avg > 90",
+    "input": {
+        "WHERE": {
+            "AND": [
+                {
+                    "IS": {
+                        "sections_dept": "*ps*"
+                    }
+                },
+                {
+                    "GT": {
+                        "sections_avg": 90
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept",
+                "sections_avg",
+                "sections_year",
+                "sections_id",
+                "sections_title"
+            ],
+            "ORDER": "sections_dept"
+        }
+    },
+    "errorExpected": false,
+    "expected": [
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 90.2,
+            "sections_year": 2011,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 90.47,
+            "sections_year": 2012,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 95.94,
+            "sections_year": 2007,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 90.7,
+            "sections_year": 2007,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 94.94,
+            "sections_year": 2007,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 94.17,
+            "sections_year": 2007,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 90.71,
+            "sections_year": 2010,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 96,
+            "sections_year": 2010,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 95.05,
+            "sections_year": 2010,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 91.29,
+            "sections_year": 2010,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 91.81,
+            "sections_year": 2009,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 90.33,
+            "sections_year": 2009,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 92.24,
+            "sections_year": 2009,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 92.59,
+            "sections_year": 2009,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 90.29,
+            "sections_year": 2009,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 94.1,
+            "sections_year": 2009,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 95.95,
+            "sections_year": 2009,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 93,
+            "sections_year": 2009,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 90.22,
+            "sections_year": 2013,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 91.43,
+            "sections_year": 2008,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 92.74,
+            "sections_year": 2008,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "apsc",
+            "sections_avg": 91,
+            "sections_year": 2008,
+            "sections_id": "279",
+            "sections_title": "eng mtls lab"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.18,
+            "sections_year": 2014,
+            "sections_id": "362",
+            "sections_title": "basic intvw skls"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.8,
+            "sections_year": 2009,
+            "sections_id": "362",
+            "sections_title": "basic intvw skls"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.64,
+            "sections_year": 2015,
+            "sections_id": "362",
+            "sections_title": "basic intvw skls"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.5,
+            "sections_year": 2015,
+            "sections_id": "362",
+            "sections_title": "basic intvw skls"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.19,
+            "sections_year": 2015,
+            "sections_id": "362",
+            "sections_title": "basic intvw skls"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.2,
+            "sections_year": 2014,
+            "sections_id": "362",
+            "sections_title": "basic intvw skls"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.33,
+            "sections_year": 2014,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.24,
+            "sections_year": 2009,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.69,
+            "sections_year": 2009,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.82,
+            "sections_year": 2009,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.16,
+            "sections_year": 2010,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.91,
+            "sections_year": 2010,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.66,
+            "sections_year": 2015,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.37,
+            "sections_year": 2014,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.28,
+            "sections_year": 2010,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.89,
+            "sections_year": 1900,
+            "sections_id": "363",
+            "sections_title": "career counselng"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.75,
+            "sections_year": 2011,
+            "sections_id": "365",
+            "sections_title": "int thry counsel"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91,
+            "sections_year": 2009,
+            "sections_id": "365",
+            "sections_title": "int thry counsel"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.13,
+            "sections_year": 2013,
+            "sections_id": "365",
+            "sections_title": "int thry counsel"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91,
+            "sections_year": 2008,
+            "sections_id": "426",
+            "sections_title": "role tcher guid"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.78,
+            "sections_year": 2008,
+            "sections_id": "426",
+            "sections_title": "role tcher guid"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.86,
+            "sections_year": 1900,
+            "sections_id": "426",
+            "sections_title": "role tcher guid"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.1,
+            "sections_year": 2014,
+            "sections_id": "426",
+            "sections_title": "role tcher guid"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.12,
+            "sections_year": 2012,
+            "sections_id": "426",
+            "sections_title": "role tcher guid"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.02,
+            "sections_year": 1900,
+            "sections_id": "426",
+            "sections_title": "role tcher guid"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.35,
+            "sections_year": 2013,
+            "sections_id": "426",
+            "sections_title": "role tcher guid"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.17,
+            "sections_year": 2015,
+            "sections_id": "433",
+            "sections_title": "psnl soc dv adlt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.09,
+            "sections_year": 2015,
+            "sections_id": "433",
+            "sections_title": "psnl soc dv adlt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.59,
+            "sections_year": 1900,
+            "sections_id": "433",
+            "sections_title": "psnl soc dv adlt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.9,
+            "sections_year": 2010,
+            "sections_id": "433",
+            "sections_title": "psnl soc dv adlt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.9,
+            "sections_year": 1900,
+            "sections_id": "433",
+            "sections_title": "psnl soc dv adlt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 95.78,
+            "sections_year": 2015,
+            "sections_id": "504",
+            "sections_title": "schl counselling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 95.78,
+            "sections_year": 1900,
+            "sections_id": "504",
+            "sections_title": "schl counselling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.56,
+            "sections_year": 2014,
+            "sections_id": "504",
+            "sections_title": "schl counselling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.56,
+            "sections_year": 1900,
+            "sections_id": "504",
+            "sections_title": "schl counselling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 95.36,
+            "sections_year": 2011,
+            "sections_id": "514",
+            "sections_title": "counsl adolescnt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 95.36,
+            "sections_year": 1900,
+            "sections_id": "514",
+            "sections_title": "counsl adolescnt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.17,
+            "sections_year": 2013,
+            "sections_id": "514",
+            "sections_title": "counsl adolescnt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.17,
+            "sections_year": 1900,
+            "sections_id": "514",
+            "sections_title": "counsl adolescnt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 2015,
+            "sections_id": "514",
+            "sections_title": "counsl adolescnt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 1900,
+            "sections_id": "514",
+            "sections_title": "counsl adolescnt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.06,
+            "sections_year": 2014,
+            "sections_id": "514",
+            "sections_title": "counsl adolescnt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.06,
+            "sections_year": 1900,
+            "sections_id": "514",
+            "sections_title": "counsl adolescnt"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 2008,
+            "sections_id": "524",
+            "sections_title": "counslng adults"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 1900,
+            "sections_id": "524",
+            "sections_title": "counslng adults"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.06,
+            "sections_year": 2014,
+            "sections_id": "524",
+            "sections_title": "counslng adults"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.06,
+            "sections_year": 1900,
+            "sections_id": "524",
+            "sections_title": "counslng adults"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.33,
+            "sections_year": 2012,
+            "sections_id": "524",
+            "sections_title": "counslng adults"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.33,
+            "sections_year": 1900,
+            "sections_id": "524",
+            "sections_title": "counslng adults"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.5,
+            "sections_year": 2013,
+            "sections_id": "524",
+            "sections_title": "counslng adults"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.5,
+            "sections_year": 1900,
+            "sections_id": "524",
+            "sections_title": "counslng adults"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 95,
+            "sections_year": 2016,
+            "sections_id": "535",
+            "sections_title": "adlt psychpathlg"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 95,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "adlt psychpathlg"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.38,
+            "sections_year": 2015,
+            "sections_id": "535",
+            "sections_title": "adlt psychpathlg"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.38,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "adlt psychpathlg"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.25,
+            "sections_year": 2008,
+            "sections_id": "535",
+            "sections_title": "adlt psychpathlg"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.25,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "adlt psychpathlg"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.57,
+            "sections_year": 2011,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.57,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.35,
+            "sections_year": 2009,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.35,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.11,
+            "sections_year": 2012,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.11,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.44,
+            "sections_year": 2015,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.44,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.36,
+            "sections_year": 2008,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.36,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.4,
+            "sections_year": 2009,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.4,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.4,
+            "sections_year": 2010,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.4,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "family counsl ii"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.94,
+            "sections_year": 2013,
+            "sections_id": "564",
+            "sections_title": "group counsling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.4,
+            "sections_year": 1900,
+            "sections_id": "564",
+            "sections_title": "group counsling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.64,
+            "sections_year": 2015,
+            "sections_id": "564",
+            "sections_title": "group counsling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.23,
+            "sections_year": 1900,
+            "sections_id": "564",
+            "sections_title": "group counsling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.71,
+            "sections_year": 2008,
+            "sections_id": "564",
+            "sections_title": "group counsling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.71,
+            "sections_year": 1900,
+            "sections_id": "564",
+            "sections_title": "group counsling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.67,
+            "sections_year": 2014,
+            "sections_id": "564",
+            "sections_title": "group counsling"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.53,
+            "sections_year": 2011,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.42,
+            "sections_year": 2009,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.42,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 99.19,
+            "sections_year": 2012,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.23,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.71,
+            "sections_year": 2015,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.71,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.89,
+            "sections_year": 2008,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.89,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.81,
+            "sections_year": 2014,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.81,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.58,
+            "sections_year": 2012,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.58,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.88,
+            "sections_year": 2013,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.88,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.9,
+            "sections_year": 2011,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.9,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 97.47,
+            "sections_year": 2009,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 97.47,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.21,
+            "sections_year": 2010,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.21,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "career planning"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.67,
+            "sections_year": 2010,
+            "sections_id": "579",
+            "sections_title": "research in cnps"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.67,
+            "sections_year": 1900,
+            "sections_id": "579",
+            "sections_title": "research in cnps"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94,
+            "sections_year": 2011,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.32,
+            "sections_year": 2014,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.32,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.72,
+            "sections_year": 2010,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.72,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.26,
+            "sections_year": 2012,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.26,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 96.33,
+            "sections_year": 2013,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 96,
+            "sections_year": 2013,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 96.16,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.67,
+            "sections_year": 2014,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.67,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.19,
+            "sections_year": 2013,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.19,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94,
+            "sections_year": 2011,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.76,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "prgm devl cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92,
+            "sections_year": 2009,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.92,
+            "sections_year": 2010,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.07,
+            "sections_year": 2010,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.44,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.5,
+            "sections_year": 2012,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.5,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.22,
+            "sections_year": 2016,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.22,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.29,
+            "sections_year": 2013,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.73,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.95,
+            "sections_year": 2015,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.05,
+            "sections_year": 2015,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.5,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.44,
+            "sections_year": 2008,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.67,
+            "sections_year": 2008,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.33,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.08,
+            "sections_year": 2008,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.08,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.92,
+            "sections_year": 2014,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.6,
+            "sections_year": 2014,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.33,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 95.36,
+            "sections_year": 2012,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.5,
+            "sections_year": 2012,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.16,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.18,
+            "sections_year": 2013,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.89,
+            "sections_year": 2013,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.62,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.93,
+            "sections_year": 2011,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.43,
+            "sections_year": 2011,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.86,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 2009,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.95,
+            "sections_year": 2010,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.32,
+            "sections_year": 2010,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.68,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.8,
+            "sections_year": 2009,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.8,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 2010,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.33,
+            "sections_year": 2015,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.33,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.88,
+            "sections_year": 2008,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.88,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.89,
+            "sections_year": 2014,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.89,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.7,
+            "sections_year": 2012,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.7,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.5,
+            "sections_year": 2011,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.5,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "cross-cltr cnsl"
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.6,
+            "sections_year": 2009,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 91.6,
+            "sections_year": 1900,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92,
+            "sections_year": 2010,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92,
+            "sections_year": 1900,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.71,
+            "sections_year": 2015,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.71,
+            "sections_year": 1900,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.22,
+            "sections_year": 2008,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.22,
+            "sections_year": 1900,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.2,
+            "sections_year": 2014,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 94.2,
+            "sections_year": 1900,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 2012,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 90.5,
+            "sections_year": 1900,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.4,
+            "sections_year": 2013,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 92.4,
+            "sections_year": 1900,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.4,
+            "sections_year": 2011,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cnps",
+            "sections_avg": 93.4,
+            "sections_year": 1900,
+            "sections_id": "632",
+            "sections_title": ""
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91.25,
+            "sections_year": 2011,
+            "sections_id": "445",
+            "sections_title": "alg in bioin"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91.25,
+            "sections_year": 1900,
+            "sections_id": "445",
+            "sections_title": "alg in bioin"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.63,
+            "sections_year": 2009,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.63,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 93.38,
+            "sections_year": 2013,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 93.38,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 93.5,
+            "sections_year": 2011,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 93.5,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.25,
+            "sections_year": 2015,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.25,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.5,
+            "sections_year": 2012,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.5,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "honours thesis"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.4,
+            "sections_year": 2014,
+            "sections_id": "490",
+            "sections_title": "student seminar"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.4,
+            "sections_year": 1900,
+            "sections_id": "490",
+            "sections_title": "student seminar"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.6,
+            "sections_year": 2013,
+            "sections_id": "490",
+            "sections_title": "student seminar"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.6,
+            "sections_year": 1900,
+            "sections_id": "490",
+            "sections_title": "student seminar"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.27,
+            "sections_year": 2008,
+            "sections_id": "490",
+            "sections_title": "student seminar"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.14,
+            "sections_year": 1900,
+            "sections_id": "490",
+            "sections_title": "student seminar"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92,
+            "sections_year": 2010,
+            "sections_id": "490",
+            "sections_title": "student seminar"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92,
+            "sections_year": 1900,
+            "sections_id": "490",
+            "sections_title": "student seminar"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.43,
+            "sections_year": 2009,
+            "sections_id": "501",
+            "sections_title": "thry of automata"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.43,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "thry of automata"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91,
+            "sections_year": 2010,
+            "sections_id": "501",
+            "sections_title": "thry of automata"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "thry of automata"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.75,
+            "sections_year": 2012,
+            "sections_id": "501",
+            "sections_title": "thry of automata"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 92.75,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "thry of automata"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 94,
+            "sections_year": 2007,
+            "sections_id": "501",
+            "sections_title": "thry of automata"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 94,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "thry of automata"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 94.5,
+            "sections_year": 2007,
+            "sections_id": "503",
+            "sections_title": "computl ling 1"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 94.5,
+            "sections_year": 1900,
+            "sections_id": "503",
+            "sections_title": "computl ling 1"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91.79,
+            "sections_year": 2013,
+            "sections_id": "507",
+            "sections_title": "software eng"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91.79,
+            "sections_year": 1900,
+            "sections_id": "507",
+            "sections_title": "software eng"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.71,
+            "sections_year": 2012,
+            "sections_id": "522",
+            "sections_title": "artif intell 2"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.71,
+            "sections_year": 1900,
+            "sections_id": "522",
+            "sections_title": "artif intell 2"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91.22,
+            "sections_year": 2015,
+            "sections_id": "527",
+            "sections_title": "comp comm protcl"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91.22,
+            "sections_year": 1900,
+            "sections_id": "527",
+            "sections_title": "comp comm protcl"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.11,
+            "sections_year": 2007,
+            "sections_id": "527",
+            "sections_title": "comp comm protcl"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.11,
+            "sections_year": 1900,
+            "sections_id": "527",
+            "sections_title": "comp comm protcl"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91.22,
+            "sections_year": 2014,
+            "sections_id": "540",
+            "sections_title": "machine learn i"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 91.22,
+            "sections_year": 1900,
+            "sections_id": "540",
+            "sections_title": "machine learn i"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.53,
+            "sections_year": 2015,
+            "sections_id": "540",
+            "sections_title": "machine learn i"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 90.53,
+            "sections_year": 1900,
+            "sections_id": "540",
+            "sections_title": "machine learn i"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 95,
+            "sections_year": 2014,
+            "sections_id": "589",
+            "sections_title": "m.sc major essay"
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 95,
+            "sections_year": 1900,
+            "sections_id": "589",
+            "sections_title": "m.sc major essay"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.56,
+            "sections_year": 2014,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.37,
+            "sections_year": 2014,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.43,
+            "sections_year": 1900,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.77,
+            "sections_year": 2011,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.77,
+            "sections_year": 1900,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96,
+            "sections_year": 2009,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96,
+            "sections_year": 1900,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.75,
+            "sections_year": 2015,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.24,
+            "sections_year": 2015,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.51,
+            "sections_year": 1900,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.44,
+            "sections_year": 2014,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.44,
+            "sections_year": 1900,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.64,
+            "sections_year": 2012,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.64,
+            "sections_year": 1900,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.53,
+            "sections_year": 2011,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.53,
+            "sections_year": 1900,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.25,
+            "sections_year": 2013,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.25,
+            "sections_year": 1900,
+            "sections_id": "303",
+            "sections_title": "tch'g hghly able"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.03,
+            "sections_year": 2013,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.03,
+            "sections_year": 1900,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.67,
+            "sections_year": 2014,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.69,
+            "sections_year": 1900,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.91,
+            "sections_year": 2011,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.91,
+            "sections_year": 1900,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.54,
+            "sections_year": 2012,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.54,
+            "sections_year": 1900,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.9,
+            "sections_year": 2014,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.9,
+            "sections_year": 1900,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.15,
+            "sections_year": 2011,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.15,
+            "sections_year": 1900,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.17,
+            "sections_year": 2010,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.17,
+            "sections_year": 1900,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.18,
+            "sections_year": 2009,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.18,
+            "sections_year": 1900,
+            "sections_id": "312",
+            "sections_title": "intro excp child"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.2,
+            "sections_year": 2013,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.29,
+            "sections_year": 2014,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.58,
+            "sections_year": 2011,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.48,
+            "sections_year": 2012,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.19,
+            "sections_year": 2012,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.85,
+            "sections_year": 1900,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.35,
+            "sections_year": 2010,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.24,
+            "sections_year": 2015,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.48,
+            "sections_year": 2015,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.34,
+            "sections_year": 1900,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.55,
+            "sections_year": 2013,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.55,
+            "sections_year": 1900,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.88,
+            "sections_year": 2009,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.63,
+            "sections_year": 2007,
+            "sections_id": "316",
+            "sections_title": "lrn'g disablties"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.49,
+            "sections_year": 2014,
+            "sections_id": "320",
+            "sections_title": "incl bl vis-imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.69,
+            "sections_year": 2014,
+            "sections_id": "320",
+            "sections_title": "incl bl vis-imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.09,
+            "sections_year": 1900,
+            "sections_id": "320",
+            "sections_title": "incl bl vis-imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.27,
+            "sections_year": 2008,
+            "sections_id": "320",
+            "sections_title": "tchg st visl imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.27,
+            "sections_year": 1900,
+            "sections_id": "320",
+            "sections_title": "tchg st visl imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.23,
+            "sections_year": 2015,
+            "sections_id": "320",
+            "sections_title": "incl bl vis-imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93,
+            "sections_year": 2015,
+            "sections_id": "320",
+            "sections_title": "incl bl vis-imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.11,
+            "sections_year": 1900,
+            "sections_id": "320",
+            "sections_title": "incl bl vis-imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.65,
+            "sections_year": 2016,
+            "sections_id": "403",
+            "sections_title": "ed st dvl ds inc"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.72,
+            "sections_year": 2016,
+            "sections_id": "403",
+            "sections_title": "ed st dvl ds inc"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.39,
+            "sections_year": 1900,
+            "sections_id": "403",
+            "sections_title": "ed st dvl ds inc"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.08,
+            "sections_year": 2009,
+            "sections_id": "403",
+            "sections_title": "ed st dvl ds inc"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.08,
+            "sections_year": 2015,
+            "sections_id": "403",
+            "sections_title": "ed st dvl ds inc"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.29,
+            "sections_year": 2012,
+            "sections_id": "403",
+            "sections_title": "ed st dvl ds inc"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.29,
+            "sections_year": 1900,
+            "sections_id": "403",
+            "sections_title": "ed st dvl ds inc"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.1,
+            "sections_year": 2013,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.5,
+            "sections_year": 2013,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.29,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.93,
+            "sections_year": 2014,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.3,
+            "sections_year": 2014,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.09,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.9,
+            "sections_year": 2016,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.9,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.82,
+            "sections_year": 2011,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.23,
+            "sections_year": 2012,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.46,
+            "sections_year": 2012,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.44,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.7,
+            "sections_year": 2010,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.7,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.8,
+            "sections_year": 2015,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.26,
+            "sections_year": 2015,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.5,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.75,
+            "sections_year": 2014,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.75,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.62,
+            "sections_year": 2012,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.62,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.94,
+            "sections_year": 2011,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.94,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.45,
+            "sections_year": 2013,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.45,
+            "sections_year": 1900,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.76,
+            "sections_year": 2010,
+            "sections_id": "406",
+            "sections_title": "typ atyp inf/ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.85,
+            "sections_year": 2014,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.22,
+            "sections_year": 2009,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.22,
+            "sections_year": 1900,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.06,
+            "sections_year": 2010,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.06,
+            "sections_year": 1900,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.75,
+            "sections_year": 2015,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.92,
+            "sections_year": 1900,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.63,
+            "sections_year": 2014,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.63,
+            "sections_year": 1900,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.78,
+            "sections_year": 2012,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.78,
+            "sections_year": 1900,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.45,
+            "sections_year": 2011,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.45,
+            "sections_year": 1900,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.11,
+            "sections_year": 2013,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.11,
+            "sections_year": 1900,
+            "sections_id": "408",
+            "sections_title": "ed prg hghly abl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.6,
+            "sections_year": 2013,
+            "sections_id": "411",
+            "sections_title": "augmt&alt comm"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.6,
+            "sections_year": 1900,
+            "sections_id": "411",
+            "sections_title": "augmt&alt comm"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.55,
+            "sections_year": 2012,
+            "sections_id": "411",
+            "sections_title": "augmt&alt comm"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.5,
+            "sections_year": 2015,
+            "sections_id": "411",
+            "sections_title": "augmt&alt comm"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.5,
+            "sections_year": 1900,
+            "sections_id": "411",
+            "sections_title": "augmt&alt comm"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.67,
+            "sections_year": 2015,
+            "sections_id": "415",
+            "sections_title": "tech for vis imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.67,
+            "sections_year": 1900,
+            "sections_id": "415",
+            "sections_title": "tech for vis imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.83,
+            "sections_year": 2013,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.1,
+            "sections_year": 2014,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.3,
+            "sections_year": 2016,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.3,
+            "sections_year": 1900,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.08,
+            "sections_year": 2009,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.7,
+            "sections_year": 2009,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.36,
+            "sections_year": 1900,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.29,
+            "sections_year": 2010,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.29,
+            "sections_year": 1900,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.81,
+            "sections_year": 2008,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.81,
+            "sections_year": 1900,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.87,
+            "sections_year": 2015,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.05,
+            "sections_year": 2014,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.05,
+            "sections_year": 1900,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.5,
+            "sections_year": 2011,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.5,
+            "sections_year": 1900,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.21,
+            "sections_year": 2009,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.25,
+            "sections_year": 2009,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.47,
+            "sections_year": 1900,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.14,
+            "sections_year": 2007,
+            "sections_id": "421",
+            "sections_title": "assess lrn diffi"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.38,
+            "sections_year": 2014,
+            "sections_id": "431",
+            "sections_title": "prg child sp lrn"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.03,
+            "sections_year": 1900,
+            "sections_id": "431",
+            "sections_title": "prg child sp lrn"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.33,
+            "sections_year": 2016,
+            "sections_id": "431",
+            "sections_title": "prg child sp lrn"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.33,
+            "sections_year": 1900,
+            "sections_id": "431",
+            "sections_title": "prg child sp lrn"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.86,
+            "sections_year": 2012,
+            "sections_id": "431",
+            "sections_title": "prg child sp lrn"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.86,
+            "sections_year": 1900,
+            "sections_id": "431",
+            "sections_title": "prg child sp lrn"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.87,
+            "sections_year": 2015,
+            "sections_id": "431",
+            "sections_title": "prg child sp lrn"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.87,
+            "sections_year": 1900,
+            "sections_id": "431",
+            "sections_title": "prg child sp lrn"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.73,
+            "sections_year": 2013,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.48,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.88,
+            "sections_year": 2014,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.88,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.54,
+            "sections_year": 2012,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.56,
+            "sections_year": 2010,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.32,
+            "sections_year": 2008,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.78,
+            "sections_year": 2008,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.13,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.21,
+            "sections_year": 2015,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.21,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.75,
+            "sections_year": 2014,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.24,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.83,
+            "sections_year": 2012,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.07,
+            "sections_year": 2012,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.31,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.72,
+            "sections_year": 2011,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.16,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.13,
+            "sections_year": 2010,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.13,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.07,
+            "sections_year": 2009,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.07,
+            "sections_year": 1900,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.89,
+            "sections_year": 2007,
+            "sections_id": "432",
+            "sections_title": "classroom mgmt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.57,
+            "sections_year": 2013,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.57,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.12,
+            "sections_year": 2014,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.12,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.91,
+            "sections_year": 2016,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.91,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.65,
+            "sections_year": 2011,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.65,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.08,
+            "sections_year": 2012,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.08,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.27,
+            "sections_year": 2009,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.27,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.85,
+            "sections_year": 2010,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.85,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.4,
+            "sections_year": 2008,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.4,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.91,
+            "sections_year": 2015,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.91,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.12,
+            "sections_year": 2014,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.12,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.87,
+            "sections_year": 2012,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.87,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.55,
+            "sections_year": 2011,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.55,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.47,
+            "sections_year": 2013,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.47,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.42,
+            "sections_year": 2010,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.42,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.83,
+            "sections_year": 2009,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.83,
+            "sections_year": 1900,
+            "sections_id": "436",
+            "sections_title": "surv bhvr dis ch"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.87,
+            "sections_year": 2014,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.87,
+            "sections_year": 1900,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.29,
+            "sections_year": 2012,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.29,
+            "sections_year": 1900,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.08,
+            "sections_year": 2014,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.08,
+            "sections_year": 1900,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.52,
+            "sections_year": 2012,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.52,
+            "sections_year": 1900,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.94,
+            "sections_year": 2011,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.94,
+            "sections_year": 1900,
+            "sections_id": "437",
+            "sections_title": "intrv ch&ad bh d"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.24,
+            "sections_year": 2013,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.8,
+            "sections_year": 2014,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.25,
+            "sections_year": 2014,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.62,
+            "sections_year": 2014,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.87,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.57,
+            "sections_year": 2016,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.59,
+            "sections_year": 2016,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.9,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.72,
+            "sections_year": 2011,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.41,
+            "sections_year": 2011,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.72,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.58,
+            "sections_year": 2012,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.58,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.57,
+            "sections_year": 2010,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.57,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.59,
+            "sections_year": 2015,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.87,
+            "sections_year": 2015,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.13,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.18,
+            "sections_year": 2014,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.47,
+            "sections_year": 2014,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.79,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.76,
+            "sections_year": 2012,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.76,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.4,
+            "sections_year": 2013,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.14,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "educ stds autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.32,
+            "sections_year": 2010,
+            "sections_id": "481",
+            "sections_title": "intro rsrch educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.32,
+            "sections_year": 1900,
+            "sections_id": "481",
+            "sections_title": "intro rsrch educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.62,
+            "sections_year": 2014,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.18,
+            "sections_year": 2012,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.07,
+            "sections_year": 2009,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.07,
+            "sections_year": 1900,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.22,
+            "sections_year": 2012,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.22,
+            "sections_year": 1900,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.46,
+            "sections_year": 2011,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.46,
+            "sections_year": 1900,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.1,
+            "sections_year": 2010,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.56,
+            "sections_year": 2009,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.56,
+            "sections_year": 1900,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.11,
+            "sections_year": 2007,
+            "sections_id": "482",
+            "sections_title": "intr stat rs edu"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.62,
+            "sections_year": 2013,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.36,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.22,
+            "sections_year": 2016,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.22,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.44,
+            "sections_year": 2011,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.44,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.88,
+            "sections_year": 2012,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.84,
+            "sections_year": 2012,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.77,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.48,
+            "sections_year": 2010,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.79,
+            "sections_year": 2009,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.79,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "hn dev, lrn, cul"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.92,
+            "sections_year": 2010,
+            "sections_id": "502",
+            "sections_title": "cog lang proc ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.92,
+            "sections_year": 1900,
+            "sections_id": "502",
+            "sections_title": "cog lang proc ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.7,
+            "sections_year": 2015,
+            "sections_id": "502",
+            "sections_title": "cog lang proc ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.7,
+            "sections_year": 1900,
+            "sections_id": "502",
+            "sections_title": "cog lang proc ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.83,
+            "sections_year": 2013,
+            "sections_id": "502",
+            "sections_title": "cog lang proc ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.83,
+            "sections_year": 1900,
+            "sections_id": "502",
+            "sections_title": "cog lang proc ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.46,
+            "sections_year": 2012,
+            "sections_id": "505",
+            "sections_title": "hn dev: inf-adlt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.86,
+            "sections_year": 2012,
+            "sections_id": "505",
+            "sections_title": "hn dev: inf-adlt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.88,
+            "sections_year": 1900,
+            "sections_id": "505",
+            "sections_title": "hn dev: inf-adlt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.36,
+            "sections_year": 2015,
+            "sections_id": "505",
+            "sections_title": "hn dev: inf-adlt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.25,
+            "sections_year": 2015,
+            "sections_id": "505",
+            "sections_title": "hn dev: inf-adlt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.58,
+            "sections_year": 1900,
+            "sections_id": "505",
+            "sections_title": "hn dev: inf-adlt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.23,
+            "sections_year": 2009,
+            "sections_id": "505",
+            "sections_title": "hn dev: inf-adlt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.49,
+            "sections_year": 1900,
+            "sections_id": "505",
+            "sections_title": "hn dev: inf-adlt"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.8,
+            "sections_year": 2011,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.8,
+            "sections_year": 1900,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.55,
+            "sections_year": 2010,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.55,
+            "sections_year": 1900,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.11,
+            "sections_year": 2008,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.11,
+            "sections_year": 1900,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.27,
+            "sections_year": 2015,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.27,
+            "sections_year": 1900,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.27,
+            "sections_year": 2010,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.27,
+            "sections_year": 1900,
+            "sections_id": "507",
+            "sections_title": "ch&ad psyco-path"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.13,
+            "sections_year": 2013,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.21,
+            "sections_year": 2014,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.41,
+            "sections_year": 2014,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.78,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.36,
+            "sections_year": 2016,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.36,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.74,
+            "sections_year": 2012,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.71,
+            "sections_year": 2012,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.73,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.67,
+            "sections_year": 2009,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.1,
+            "sections_year": 2010,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.1,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93,
+            "sections_year": 2008,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.17,
+            "sections_year": 2015,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.33,
+            "sections_year": 2015,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.75,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93,
+            "sections_year": 2012,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.79,
+            "sections_year": 2012,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.41,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.05,
+            "sections_year": 2011,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.83,
+            "sections_year": 2011,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.97,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.2,
+            "sections_year": 2010,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.2,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.88,
+            "sections_year": 2009,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.88,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.74,
+            "sections_year": 2007,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.74,
+            "sections_year": 1900,
+            "sections_id": "512",
+            "sections_title": "crit spec ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.91,
+            "sections_year": 2012,
+            "sections_id": "516",
+            "sections_title": "able&creatv lrnr"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.91,
+            "sections_year": 1900,
+            "sections_id": "516",
+            "sections_title": "able&creatv lrnr"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.15,
+            "sections_year": 2014,
+            "sections_id": "516",
+            "sections_title": "able&creatv lrnr"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.15,
+            "sections_year": 1900,
+            "sections_id": "516",
+            "sections_title": "able&creatv lrnr"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.8,
+            "sections_year": 2010,
+            "sections_id": "516",
+            "sections_title": "able&creatv lrnr"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.41,
+            "sections_year": 2010,
+            "sections_id": "516",
+            "sections_title": "able&creatv lrnr"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.3,
+            "sections_year": 1900,
+            "sections_id": "516",
+            "sections_title": "able&creatv lrnr"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.45,
+            "sections_year": 2011,
+            "sections_id": "519",
+            "sections_title": "dev el sk df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 98.45,
+            "sections_year": 1900,
+            "sections_id": "519",
+            "sections_title": "dev el sk df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.88,
+            "sections_year": 2010,
+            "sections_id": "520",
+            "sections_title": "cur dev e df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.88,
+            "sections_year": 1900,
+            "sections_id": "520",
+            "sections_title": "cur dev e df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.83,
+            "sections_year": 2008,
+            "sections_id": "520",
+            "sections_title": "cur dev e df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.83,
+            "sections_year": 1900,
+            "sections_id": "520",
+            "sections_title": "cur dev e df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.25,
+            "sections_year": 2015,
+            "sections_id": "520",
+            "sections_title": "cur dev e df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.25,
+            "sections_year": 1900,
+            "sections_id": "520",
+            "sections_title": "cur dev e df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.73,
+            "sections_year": 2012,
+            "sections_id": "520",
+            "sections_title": "cur dev e df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.73,
+            "sections_year": 1900,
+            "sections_id": "520",
+            "sections_title": "cur dev e df&hrd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.82,
+            "sections_year": 2011,
+            "sections_id": "525",
+            "sections_title": "std in sign lang"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.82,
+            "sections_year": 1900,
+            "sections_id": "525",
+            "sections_title": "std in sign lang"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.23,
+            "sections_year": 2009,
+            "sections_id": "525",
+            "sections_title": "std in sign lang"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.23,
+            "sections_year": 1900,
+            "sections_id": "525",
+            "sections_title": "std in sign lang"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.84,
+            "sections_year": 2013,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.84,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.33,
+            "sections_year": 2012,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.33,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.38,
+            "sections_year": 2009,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.38,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.62,
+            "sections_year": 2008,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.62,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.56,
+            "sections_year": 2015,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.56,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.33,
+            "sections_year": 2014,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96.33,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.2,
+            "sections_year": 2012,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.2,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.5,
+            "sections_year": 2011,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.94,
+            "sections_year": 2011,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.33,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.64,
+            "sections_year": 2010,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.64,
+            "sections_year": 1900,
+            "sections_id": "526",
+            "sections_title": "specific lrn dis"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.38,
+            "sections_year": 2013,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.94,
+            "sections_year": 2013,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.57,
+            "sections_year": 1900,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.14,
+            "sections_year": 2011,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.78,
+            "sections_year": 1900,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 96,
+            "sections_year": 2012,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.25,
+            "sections_year": 2012,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.82,
+            "sections_year": 1900,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.36,
+            "sections_year": 2015,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.69,
+            "sections_year": 2012,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.69,
+            "sections_year": 1900,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.86,
+            "sections_year": 2011,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.86,
+            "sections_year": 1900,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.71,
+            "sections_year": 2013,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.71,
+            "sections_year": 1900,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.58,
+            "sections_year": 2010,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.78,
+            "sections_year": 2009,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.57,
+            "sections_year": 2009,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.22,
+            "sections_year": 1900,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.5,
+            "sections_year": 2007,
+            "sections_id": "528",
+            "sections_title": "basic princ meas"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.86,
+            "sections_year": 2013,
+            "sections_id": "529",
+            "sections_title": "dev scale&measur"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.86,
+            "sections_year": 1900,
+            "sections_id": "529",
+            "sections_title": "dev scale&measur"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.82,
+            "sections_year": 2011,
+            "sections_id": "529",
+            "sections_title": "dev scale&measur"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.82,
+            "sections_year": 1900,
+            "sections_id": "529",
+            "sections_title": "dev scale&measur"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.33,
+            "sections_year": 2007,
+            "sections_id": "529",
+            "sections_title": "test constructio"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.33,
+            "sections_year": 1900,
+            "sections_id": "529",
+            "sections_title": "test constructio"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93,
+            "sections_year": 2013,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.1,
+            "sections_year": 1900,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.92,
+            "sections_year": 2014,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.92,
+            "sections_year": 1900,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.56,
+            "sections_year": 2011,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.5,
+            "sections_year": 1900,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93,
+            "sections_year": 2012,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.89,
+            "sections_year": 2012,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.23,
+            "sections_year": 1900,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.92,
+            "sections_year": 2015,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.92,
+            "sections_year": 1900,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.22,
+            "sections_year": 2010,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.79,
+            "sections_year": 1900,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.5,
+            "sections_year": 2007,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.5,
+            "sections_year": 1900,
+            "sections_id": "531",
+            "sections_title": "curric as&interv"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.64,
+            "sections_year": 2014,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.64,
+            "sections_year": 1900,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.5,
+            "sections_year": 2011,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.5,
+            "sections_year": 1900,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.31,
+            "sections_year": 2015,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.5,
+            "sections_year": 2015,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91,
+            "sections_year": 1900,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.33,
+            "sections_year": 2010,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.33,
+            "sections_year": 1900,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.78,
+            "sections_year": 2009,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97,
+            "sections_year": 2009,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.41,
+            "sections_year": 1900,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.5,
+            "sections_year": 2007,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.5,
+            "sections_year": 1900,
+            "sections_id": "534",
+            "sections_title": "acad assess schl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.85,
+            "sections_year": 2014,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.85,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.33,
+            "sections_year": 2012,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.74,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.83,
+            "sections_year": 2015,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.83,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.25,
+            "sections_year": 2014,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.25,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.9,
+            "sections_year": 2010,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.9,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.38,
+            "sections_year": 2009,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92,
+            "sections_year": 2009,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.25,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.08,
+            "sections_year": 2007,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.08,
+            "sections_year": 1900,
+            "sections_id": "535",
+            "sections_title": "socl&emtl assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.9,
+            "sections_year": 2011,
+            "sections_id": "545",
+            "sections_title": "ind skl vis imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.9,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "ind skl vis imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.67,
+            "sections_year": 2015,
+            "sections_id": "545",
+            "sections_title": "ind skl vis imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.67,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "ind skl vis imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.77,
+            "sections_year": 2009,
+            "sections_id": "545",
+            "sections_title": "ind skl vis imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.77,
+            "sections_year": 1900,
+            "sections_id": "545",
+            "sections_title": "ind skl vis imp"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.69,
+            "sections_year": 2013,
+            "sections_id": "549",
+            "sections_title": "sem in autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.92,
+            "sections_year": 1900,
+            "sections_id": "549",
+            "sections_title": "sem in autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.22,
+            "sections_year": 2011,
+            "sections_id": "549",
+            "sections_title": "sem in autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.22,
+            "sections_year": 1900,
+            "sections_id": "549",
+            "sections_title": "sem in autism"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.38,
+            "sections_year": 2011,
+            "sections_id": "550",
+            "sections_title": "prof,eth&lgl iss"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.38,
+            "sections_year": 1900,
+            "sections_id": "550",
+            "sections_title": "prof,eth&lgl iss"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.67,
+            "sections_year": 2012,
+            "sections_id": "550",
+            "sections_title": "prof,eth&lgl iss"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.67,
+            "sections_year": 1900,
+            "sections_id": "550",
+            "sections_title": "prof,eth&lgl iss"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.67,
+            "sections_year": 2010,
+            "sections_id": "550",
+            "sections_title": "prof,eth&lgl iss"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.67,
+            "sections_year": 1900,
+            "sections_id": "550",
+            "sections_title": "prof,eth&lgl iss"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.71,
+            "sections_year": 2009,
+            "sections_id": "550",
+            "sections_title": "prof,eth&lgl iss"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.71,
+            "sections_year": 1900,
+            "sections_id": "550",
+            "sections_title": "prof,eth&lgl iss"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.3,
+            "sections_year": 2013,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.57,
+            "sections_year": 2013,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.82,
+            "sections_year": 1900,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.39,
+            "sections_year": 2014,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.39,
+            "sections_year": 1900,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.22,
+            "sections_year": 2011,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.22,
+            "sections_year": 1900,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.43,
+            "sections_year": 2012,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.33,
+            "sections_year": 2012,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.85,
+            "sections_year": 1900,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.45,
+            "sections_year": 2015,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.45,
+            "sections_year": 1900,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.31,
+            "sections_year": 2010,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.31,
+            "sections_year": 1900,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.75,
+            "sections_year": 2009,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94,
+            "sections_year": 2009,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.85,
+            "sections_year": 1900,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.56,
+            "sections_year": 2007,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.56,
+            "sections_year": 1900,
+            "sections_id": "553",
+            "sections_title": "thy cognt assess"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.17,
+            "sections_year": 2013,
+            "sections_id": "568",
+            "sections_title": "dev neuropsych"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.17,
+            "sections_year": 1900,
+            "sections_id": "568",
+            "sections_title": "dev neuropsych"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.71,
+            "sections_year": 2014,
+            "sections_id": "568",
+            "sections_title": "dev neuropsych"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.71,
+            "sections_year": 1900,
+            "sections_id": "568",
+            "sections_title": "dev neuropsych"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.13,
+            "sections_year": 2015,
+            "sections_id": "568",
+            "sections_title": "dev neuropsych"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.13,
+            "sections_year": 1900,
+            "sections_id": "568",
+            "sections_title": "dev neuropsych"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.44,
+            "sections_year": 2013,
+            "sections_id": "569",
+            "sections_title": "soc-psych fndtns"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.44,
+            "sections_year": 1900,
+            "sections_id": "569",
+            "sections_title": "soc-psych fndtns"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92,
+            "sections_year": 2012,
+            "sections_id": "569",
+            "sections_title": "soc-psych fndtns"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92,
+            "sections_year": 1900,
+            "sections_id": "569",
+            "sections_title": "soc-psych fndtns"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.92,
+            "sections_year": 2015,
+            "sections_id": "569",
+            "sections_title": "soc-psych fndtns"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.92,
+            "sections_year": 1900,
+            "sections_id": "569",
+            "sections_title": "soc-psych fndtns"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.27,
+            "sections_year": 2013,
+            "sections_id": "574",
+            "sections_title": "prin behav anlys"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.25,
+            "sections_year": 2013,
+            "sections_id": "574",
+            "sections_title": "prin behav anlys"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.64,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "prin behav anlys"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.81,
+            "sections_year": 2014,
+            "sections_id": "574",
+            "sections_title": "prin behav anlys"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.81,
+            "sections_year": 1900,
+            "sections_id": "574",
+            "sections_title": "prin behav anlys"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.5,
+            "sections_year": 2015,
+            "sections_id": "575",
+            "sections_title": "inst mthd chalng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.5,
+            "sections_year": 1900,
+            "sections_id": "575",
+            "sections_title": "inst mthd chalng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.84,
+            "sections_year": 2013,
+            "sections_id": "584",
+            "sections_title": "motivation educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.84,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "motivation educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.36,
+            "sections_year": 2012,
+            "sections_id": "584",
+            "sections_title": "motivation educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.36,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "motivation educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.9,
+            "sections_year": 2014,
+            "sections_id": "584",
+            "sections_title": "motivation educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.9,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "motivation educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.11,
+            "sections_year": 2009,
+            "sections_id": "584",
+            "sections_title": "motivation educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.11,
+            "sections_year": 1900,
+            "sections_id": "584",
+            "sections_title": "motivation educ"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.2,
+            "sections_year": 2015,
+            "sections_id": "586",
+            "sections_title": "discourse & talk"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.2,
+            "sections_year": 1900,
+            "sections_id": "586",
+            "sections_title": "discourse & talk"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.63,
+            "sections_year": 2012,
+            "sections_id": "591",
+            "sections_title": "thry&prc prg evl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.63,
+            "sections_year": 1900,
+            "sections_id": "591",
+            "sections_title": "thry&prc prg evl"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.11,
+            "sections_year": 2013,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.09,
+            "sections_year": 2013,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.14,
+            "sections_year": 2013,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.67,
+            "sections_year": 1900,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.24,
+            "sections_year": 2014,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.68,
+            "sections_year": 2014,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.44,
+            "sections_year": 2014,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.44,
+            "sections_year": 1900,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.29,
+            "sections_year": 2016,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.9,
+            "sections_year": 2016,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.16,
+            "sections_year": 1900,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.1,
+            "sections_year": 2011,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.95,
+            "sections_year": 2011,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.64,
+            "sections_year": 1900,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.79,
+            "sections_year": 2012,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.13,
+            "sections_year": 2012,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.42,
+            "sections_year": 2012,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.4,
+            "sections_year": 1900,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.42,
+            "sections_year": 2015,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.83,
+            "sections_year": 2015,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.85,
+            "sections_year": 2015,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.2,
+            "sections_year": 1900,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.05,
+            "sections_year": 2010,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.62,
+            "sections_year": 2010,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.15,
+            "sections_year": 1900,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.69,
+            "sections_year": 2009,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.5,
+            "sections_year": 2007,
+            "sections_id": "592",
+            "sections_title": "exp des anl ed"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.59,
+            "sections_year": 2012,
+            "sections_id": "593",
+            "sections_title": "dsgn&anl smp&sub"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.59,
+            "sections_year": 1900,
+            "sections_id": "593",
+            "sections_title": "dsgn&anl smp&sub"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.85,
+            "sections_year": 2012,
+            "sections_id": "594",
+            "sections_title": "mt-anl qnt rs sy"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.85,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "mt-anl qnt rs sy"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.75,
+            "sections_year": 2010,
+            "sections_id": "594",
+            "sections_title": "mt-anl qnt rs sy"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.75,
+            "sections_year": 1900,
+            "sections_id": "594",
+            "sections_title": "mt-anl qnt rs sy"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91,
+            "sections_year": 2011,
+            "sections_id": "595",
+            "sections_title": "qlt rsrch mthd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.2,
+            "sections_year": 1900,
+            "sections_id": "595",
+            "sections_title": "qlt rsrch mthd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.07,
+            "sections_year": 2012,
+            "sections_id": "595",
+            "sections_title": "qlt rsrch mthd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.38,
+            "sections_year": 2010,
+            "sections_id": "595",
+            "sections_title": "qlt rsrch mthd"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.36,
+            "sections_year": 2009,
+            "sections_id": "595",
+            "sections_title": "qlt mthd ed psy"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.45,
+            "sections_year": 1900,
+            "sections_id": "595",
+            "sections_title": "qlt mthd ed psy"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.93,
+            "sections_year": 2007,
+            "sections_id": "595",
+            "sections_title": "qlt mthd ed psy"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.27,
+            "sections_year": 1900,
+            "sections_id": "595",
+            "sections_title": "qlt mthd ed psy"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95.33,
+            "sections_year": 2013,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.13,
+            "sections_year": 2013,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.28,
+            "sections_year": 1900,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.7,
+            "sections_year": 2014,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.69,
+            "sections_year": 2014,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.31,
+            "sections_year": 1900,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.88,
+            "sections_year": 2011,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.06,
+            "sections_year": 2012,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.06,
+            "sections_year": 2012,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.56,
+            "sections_year": 1900,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.18,
+            "sections_year": 2015,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.53,
+            "sections_year": 1900,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.13,
+            "sections_year": 2010,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.94,
+            "sections_year": 2010,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.09,
+            "sections_year": 1900,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.82,
+            "sections_year": 2009,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.85,
+            "sections_year": 2009,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.29,
+            "sections_year": 1900,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.09,
+            "sections_year": 2007,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.09,
+            "sections_year": 1900,
+            "sections_id": "596",
+            "sections_title": "cor des ed res"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.25,
+            "sections_year": 2013,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.25,
+            "sections_year": 1900,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.23,
+            "sections_year": 2014,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.23,
+            "sections_year": 1900,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.5,
+            "sections_year": 2011,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.33,
+            "sections_year": 2011,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.72,
+            "sections_year": 1900,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.33,
+            "sections_year": 2012,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.91,
+            "sections_year": 2015,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.91,
+            "sections_year": 1900,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.29,
+            "sections_year": 2010,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95,
+            "sections_year": 2009,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.11,
+            "sections_year": 1900,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 97.67,
+            "sections_year": 2007,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 92.22,
+            "sections_year": 2007,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.94,
+            "sections_year": 1900,
+            "sections_id": "606",
+            "sections_title": "coll&uni teachng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.65,
+            "sections_year": 2012,
+            "sections_id": "682",
+            "sections_title": "mult des anal rs"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.65,
+            "sections_year": 1900,
+            "sections_id": "682",
+            "sections_title": "mult des anal rs"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.47,
+            "sections_year": 2015,
+            "sections_id": "682",
+            "sections_title": "mult des anal rs"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.47,
+            "sections_year": 1900,
+            "sections_id": "682",
+            "sections_title": "mult des anal rs"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.64,
+            "sections_year": 2010,
+            "sections_id": "682",
+            "sections_title": "mult des anal rs"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 91.64,
+            "sections_year": 1900,
+            "sections_id": "682",
+            "sections_title": "mult des anal rs"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95,
+            "sections_year": 2007,
+            "sections_id": "682",
+            "sections_title": "mult des anal rs"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 95,
+            "sections_year": 1900,
+            "sections_id": "682",
+            "sections_title": "mult des anal rs"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.69,
+            "sections_year": 2013,
+            "sections_id": "683",
+            "sections_title": "hier lin modelng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.69,
+            "sections_year": 1900,
+            "sections_id": "683",
+            "sections_title": "hier lin modelng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.44,
+            "sections_year": 2011,
+            "sections_id": "683",
+            "sections_title": "hier lin modelng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.44,
+            "sections_year": 1900,
+            "sections_id": "683",
+            "sections_title": "hier lin modelng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.14,
+            "sections_year": 2015,
+            "sections_id": "683",
+            "sections_title": "hier lin modelng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 94.14,
+            "sections_year": 1900,
+            "sections_id": "683",
+            "sections_title": "hier lin modelng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.8,
+            "sections_year": 2009,
+            "sections_id": "683",
+            "sections_title": "hier lin modelng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.8,
+            "sections_year": 1900,
+            "sections_id": "683",
+            "sections_title": "hier lin modelng"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.22,
+            "sections_year": 2012,
+            "sections_id": "684",
+            "sections_title": "item respns thry"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 90.22,
+            "sections_year": 1900,
+            "sections_id": "684",
+            "sections_title": "item respns thry"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.25,
+            "sections_year": 2015,
+            "sections_id": "684",
+            "sections_title": "item respns thry"
+        },
+        {
+            "sections_dept": "epse",
+            "sections_avg": 93.25,
+            "sections_year": 1900,
+            "sections_id": "684",
+            "sections_title": "item respns thry"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.06,
+            "sections_year": 2011,
+            "sections_id": "349",
+            "sections_title": "honours seminar"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.06,
+            "sections_year": 1900,
+            "sections_id": "349",
+            "sections_title": "honours seminar"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.7,
+            "sections_year": 2009,
+            "sections_id": "349",
+            "sections_title": "honours seminar"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.7,
+            "sections_year": 1900,
+            "sections_id": "349",
+            "sections_title": "honours seminar"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.27,
+            "sections_year": 2007,
+            "sections_id": "449",
+            "sections_title": "honours essay"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.27,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "honours essay"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.33,
+            "sections_year": 2010,
+            "sections_id": "449",
+            "sections_title": "honours essay"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.33,
+            "sections_year": 1900,
+            "sections_id": "449",
+            "sections_title": "honours essay"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 92,
+            "sections_year": 2011,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 92,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 96,
+            "sections_year": 2015,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 96,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 94.2,
+            "sections_year": 2008,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 94.2,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 93.5,
+            "sections_year": 2013,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 93.5,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 95,
+            "sections_year": 2010,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 95,
+            "sections_year": 1900,
+            "sections_id": "501",
+            "sections_title": "health psych"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.44,
+            "sections_year": 1900,
+            "sections_id": "508",
+            "sections_title": "teaching of psyc"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.25,
+            "sections_year": 2007,
+            "sections_id": "530",
+            "sections_title": "assm intrv techn"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.25,
+            "sections_year": 1900,
+            "sections_id": "530",
+            "sections_title": "assm intrv techn"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.83,
+            "sections_year": 2009,
+            "sections_id": "530",
+            "sections_title": "assm intrv techn"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.83,
+            "sections_year": 1900,
+            "sections_id": "530",
+            "sections_title": "assm intrv techn"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.5,
+            "sections_year": 2007,
+            "sections_id": "531",
+            "sections_title": "behav assessment"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.5,
+            "sections_year": 1900,
+            "sections_id": "531",
+            "sections_title": "behav assessment"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 94.75,
+            "sections_year": 2007,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 94.75,
+            "sections_year": 1900,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 95.75,
+            "sections_year": 2015,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 95.75,
+            "sections_year": 1900,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 93.75,
+            "sections_year": 2014,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 93.75,
+            "sections_year": 1900,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.83,
+            "sections_year": 2013,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.83,
+            "sections_year": 1900,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.38,
+            "sections_year": 2010,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.38,
+            "sections_year": 1900,
+            "sections_id": "537",
+            "sections_title": "eth & prof clin"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 95.25,
+            "sections_year": 2007,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 95.25,
+            "sections_year": 1900,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.6,
+            "sections_year": 2009,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.6,
+            "sections_year": 1900,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 93.25,
+            "sections_year": 2015,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 93.25,
+            "sections_year": 1900,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.75,
+            "sections_year": 2014,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.75,
+            "sections_year": 1900,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.17,
+            "sections_year": 2013,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.17,
+            "sections_year": 1900,
+            "sections_id": "541",
+            "sections_title": "intro psychthrpy"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.33,
+            "sections_year": 2013,
+            "sections_id": "542",
+            "sections_title": "cog/beh interven"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.33,
+            "sections_year": 1900,
+            "sections_id": "542",
+            "sections_title": "cog/beh interven"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.5,
+            "sections_year": 2010,
+            "sections_id": "542",
+            "sections_title": "cog/beh interven"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.5,
+            "sections_year": 1900,
+            "sections_id": "542",
+            "sections_title": "cog/beh interven"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.65,
+            "sections_year": 2011,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.65,
+            "sections_year": 1900,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.77,
+            "sections_year": 2013,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.77,
+            "sections_year": 1900,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 97,
+            "sections_year": 2012,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.27,
+            "sections_year": 2010,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 90.27,
+            "sections_year": 1900,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.5,
+            "sections_year": 2014,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.5,
+            "sections_year": 1900,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 96,
+            "sections_year": 1900,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.1,
+            "sections_year": 2008,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.1,
+            "sections_year": 1900,
+            "sections_id": "549",
+            "sections_title": "masters thesis"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.6,
+            "sections_year": 2015,
+            "sections_id": "560",
+            "sections_title": "clinical res des"
+        },
+        {
+            "sections_dept": "psyc",
+            "sections_avg": 91.6,
+            "sections_year": 1900,
+            "sections_id": "560",
+            "sections_title": "clinical res des"
+        }
+    ]
+}

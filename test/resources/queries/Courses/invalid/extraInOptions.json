@@ -1,0 +1,14 @@
+{
+    "title": "invalid OPTIONS with extra property",
+    "input": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept"
+            ],
+            "EXTRA": "worng"
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

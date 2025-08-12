@@ -1,0 +1,37 @@
+{
+    "title": "Overlapping comparison filter",
+    "input": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "sections_avg": 98
+                    }
+                },
+                {
+                    "GT": {
+                        "sections_avg": 99
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_avg",
+                "sections_avg"
+            ]
+        }
+    },
+    "errorExpected": false,
+    "expected": [
+        {
+            "sections_avg": 99.19
+        },
+        {
+            "sections_avg": 99.78
+        },
+        {
+            "sections_avg": 99.78
+        }
+    ]
+}

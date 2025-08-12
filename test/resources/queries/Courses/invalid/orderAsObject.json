@@ -1,0 +1,21 @@
+{
+    "title": "ORDER is an object, not a string",
+    "input": {
+        "WHERE": {
+            "GT": {
+                "sections_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept",
+                "sections_avg"
+            ],
+            "ORDER": {
+                "bad": "format"
+            }
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

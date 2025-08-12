@@ -1,0 +1,26 @@
+{
+	"title": "String key for AVG",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"average"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_year"
+			],
+			"APPLY": [
+				{
+					"average": {
+						"AVG": "sections_dept"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

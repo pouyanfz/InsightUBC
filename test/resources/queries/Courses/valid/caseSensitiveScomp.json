@@ -1,0 +1,29 @@
+{
+    "title": "valid query to check case sensitivity scomp",
+    "input": {
+        "WHERE": {
+            "AND": [
+                {
+                    "GT": {
+                        "sections_avg": 90
+                    }
+                },
+                {
+                    "IS": {
+                        "sections_dept": "cPsc"
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept",
+                "sections_id",
+                "sections_avg"
+            ],
+            "ORDER": "sections_avg"
+        }
+    },
+    "errorExpected": false,
+    "expected": []
+}

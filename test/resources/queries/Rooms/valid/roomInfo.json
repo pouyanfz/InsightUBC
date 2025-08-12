@@ -1,0 +1,21 @@
+{
+	"title": "valid rooms info for BIOL_2000",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"rooms_name": "BIOL_2000"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_name"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"rooms_name": "BIOL_2000"
+		}
+	]
+}

@@ -1,0 +1,20 @@
+{
+    "title": "invalid S-comparison with non-string value",
+    "input": {
+        "WHERE": {
+            "IS": {
+                "sections_dept": 80
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "invalidColumn",
+                "sections_avg",
+                "sections_dept"
+            ],
+            "ORDER": "sections_avg"
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

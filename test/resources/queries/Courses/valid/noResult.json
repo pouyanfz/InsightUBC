@@ -1,0 +1,17 @@
+{
+	"title": "No result from query",
+	"input": {
+		"WHERE": {
+			"EQ": {
+				"sections_avg": 30
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_avg"
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": []
+}

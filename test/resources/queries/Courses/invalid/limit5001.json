@@ -1,0 +1,44 @@
+{
+    "title": "5001 result limits",
+    "input": {
+        "WHERE": {
+            "OR": [
+                {
+                    "GT": {
+                        "sections_avg": 88.75
+                    }
+                },
+                {
+                    "LT": {
+                        "sections_avg": 51
+                    }
+                },
+                {
+                    "EQ": {
+                        "sections_avg": 59
+                    }
+                },
+                {
+                    "EQ": {
+                        "sections_avg": 63.87
+                    }
+                },
+                {
+                    "EQ": {
+                        "sections_avg": 63.01
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_avg",
+                "sections_year",
+                "sections_id",
+                "sections_title"
+            ]
+        }
+    },
+    "errorExpected": true,
+    "expected": "ResultTooLargeError"
+}

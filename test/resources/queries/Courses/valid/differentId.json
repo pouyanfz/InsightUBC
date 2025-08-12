@@ -1,0 +1,24 @@
+{
+	"title": "SELECT dept, avg WHERE avg > 97",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"single_avg": 75
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"single_dept",
+				"single_avg"
+			],
+			"ORDER": "single_avg"
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"single_dept": "cpsc",
+			"single_avg": 75.14
+		}
+	]
+}

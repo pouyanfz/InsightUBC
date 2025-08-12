@@ -1,0 +1,30 @@
+{
+    "title": "query missing OPTIONS",
+    "input": {
+        "WHERE": {
+            "OR": [
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "sections_pass": 70
+                            }
+                        },
+                        {
+                            "IS": {
+                                "sections_instructor": "*lee"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EQ": {
+                        "sections_fail": 5
+                    }
+                }
+            ]
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

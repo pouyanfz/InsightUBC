@@ -1,0 +1,22 @@
+{
+	"title": "invalid query with unexpected top-level key",
+	"input": {
+		"WHERE": {
+			"GT": {
+				"sections_year": 2012
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_year"
+			],
+			"ORDER": "sections_year"
+		},
+		"EXTRA": {
+			"IS": "wrong"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "Dataset not added",
+    "input": {
+        "WHERE": {
+            "IS": {
+                "sections_location": "UBC"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_location",
+                "sections_avg"
+            ],
+            "ORDER": "sections_avg"
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

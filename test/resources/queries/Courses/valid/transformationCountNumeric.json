@@ -1,0 +1,71 @@
+{
+	"title": "Simple count test with numeric",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"count"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_year"
+			],
+			"APPLY": [
+				{
+					"count": {
+						"COUNT": "sections_uuid"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_year": 1900,
+			"count": 24621
+		},
+		{
+			"sections_year": 2007,
+			"count": 2682
+		},
+		{
+			"sections_year": 2008,
+			"count": 3006
+		},
+		{
+			"sections_year": 2009,
+			"count": 3950
+		},
+		{
+			"sections_year": 2010,
+			"count": 4305
+		},
+		{
+			"sections_year": 2011,
+			"count": 4484
+		},
+		{
+			"sections_year": 2012,
+			"count": 4808
+		},
+		{
+			"sections_year": 2013,
+			"count": 4990
+		},
+		{
+			"sections_year": 2014,
+			"count": 5326
+		},
+		{
+			"sections_year": 2015,
+			"count": 5475
+		},
+		{
+			"sections_year": 2016,
+			"count": 965
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"title": "invalid query that tries to use keys from both Sections and Rooms",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_seats",
+				"sections_dept"
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

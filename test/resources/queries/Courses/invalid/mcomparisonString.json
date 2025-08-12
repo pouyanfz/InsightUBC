@@ -1,0 +1,20 @@
+{
+    "title": "invalid M-comparison with string value",
+    "input": {
+        "WHERE": {
+            "GT": {
+                "sections_avg": "80"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "invalidColumn",
+                "sections_avg",
+                "sections_dept"
+            ],
+            "ORDER": "sections_avg"
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

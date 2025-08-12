@@ -1,0 +1,12 @@
+[
+  {
+    "id": "sections",
+    "kind": "sections",
+    "numRows": 39
+  },
+  {
+    "id": "campus",
+    "kind": "rooms",
+    "numRows": 364
+  }
+]

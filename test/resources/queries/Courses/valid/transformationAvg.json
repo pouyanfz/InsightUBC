@@ -1,0 +1,39 @@
+{
+	"title": "Simple average test",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*loewen, philip*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"overallAvg"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_instructor"
+			],
+			"APPLY": [
+				{
+					"overallAvg": {
+						"AVG": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "loewen, philip",
+			"overallAvg": 66.4
+		},
+		{
+			"sections_instructor": "loewen, philip;paton, kelly",
+			"overallAvg": 63.91
+		}
+	]
+}

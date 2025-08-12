@@ -1,0 +1,24 @@
+{
+	"title": "Query with empty group",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"count"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [],
+			"APPLY": [
+				{
+					"count": {
+						"COUNT": "sections_uuid"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

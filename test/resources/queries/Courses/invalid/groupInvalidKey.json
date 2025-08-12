@@ -1,0 +1,32 @@
+{
+	"title": "Group has invalid key",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*loewen, philip*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"overallAvg"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_instructor",
+				"invalidkey"
+			],
+			"APPLY": [
+				{
+					"overallAvg": {
+						"AVG": "sections_avg"
+					}
+				}
+			],
+			"Extra": "key"
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

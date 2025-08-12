@@ -1,0 +1,14 @@
+{
+    "title": "Empty WHERE Clause",
+    "input": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept",
+                "sections_id"
+            ]
+        }
+    },
+    "errorExpected": true,
+    "expected": "ResultTooLargeError"
+}

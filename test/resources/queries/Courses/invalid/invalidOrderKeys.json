@@ -1,0 +1,21 @@
+{
+	"title": "Query has invalid ORDER keys",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_dept",
+				"sections_avg"
+			],
+			"ORDER": {
+				"dir": "UP",
+				"keys": [
+					"sections_avg",
+					"no_key"
+				]
+			}
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

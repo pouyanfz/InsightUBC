@@ -1,0 +1,17 @@
+{
+    "title": "invalid key starting with underscore",
+    "input": {
+        "WHERE": {
+            "GT": {
+                "_sections_avg": 97
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept"
+            ]
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

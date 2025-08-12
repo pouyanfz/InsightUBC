@@ -1,0 +1,38 @@
+{
+  "title": "invalid query using mixed dataset keys (ubc + sections)",
+  "input": {
+    "WHERE": {
+      "OR": [
+        {
+          "AND": [
+            {
+              "LT": {
+                "ubc_fail": 10
+              }
+            },
+            {
+              "IS": {
+                "sections_instructor": "*lee"
+              }
+            }
+          ]
+        },
+        {
+          "EQ": {
+            "ubc_pass": 100
+          }
+        }
+      ]
+    },
+    "OPTIONS": {
+      "COLUMNS": [
+        "sections_instructor",
+        "ubc_pass",
+        "sections_title"
+      ],
+      "ORDER": "ubc_pass"
+    }
+  },
+  "errorExpected": true,
+  "expected": "InsightError"
+}

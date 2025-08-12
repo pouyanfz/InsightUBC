@@ -1,0 +1,19 @@
+{
+    "title": "lowerCase Clause",
+    "input": {
+        "where": {
+            "gt": {
+                "sections_avg": 97
+            }
+        },
+        "options": {
+            "columns": [
+                "sections_dept",
+                "sections_avg"
+            ],
+            "order": "sections_avg"
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

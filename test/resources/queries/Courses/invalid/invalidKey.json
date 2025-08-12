@@ -1,0 +1,17 @@
+{
+    "title": "Invalid Key",
+    "input": {
+        "WHERE": {
+            "IS": {
+                "sections_dept": "cpsc"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "dept_sections"
+            ]
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

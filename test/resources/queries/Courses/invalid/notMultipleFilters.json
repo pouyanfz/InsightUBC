@@ -1,0 +1,22 @@
+{
+    "title": "invalid NOT with multiple filters",
+    "input": {
+        "WHERE": {
+            "NOT": {
+                "GT": {
+                    "sections_avg": 90
+                },
+                "LT": {
+                    "sections_avg": 80
+                }
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept"
+            ]
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

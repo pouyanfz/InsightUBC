@@ -1,0 +1,19 @@
+{
+    "title": "id has zero character",
+    "input": {
+        "WHERE": {
+            "LT": {
+                "_avg": 20
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "_fail",
+                "_avg"
+            ],
+            "ORDER": "_dept"
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

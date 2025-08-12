@@ -1,0 +1,36 @@
+{
+	"title": "invalid transformations wrong apply key type",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"rooms_type": "*Laboratory*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"rooms_shortname",
+				"totalSeats"
+			],
+			"ORDER": {
+				"dir": "DOWN",
+				"keys": [
+					"totalSeats"
+				]
+			}
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"rooms_shortname"
+			],
+			"APPLY": [
+				{
+					"totalSeats": {
+						"MEDIAN": "rooms_seats"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

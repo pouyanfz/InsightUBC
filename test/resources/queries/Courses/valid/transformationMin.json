@@ -1,0 +1,71 @@
+{
+	"title": "Simple min test",
+	"input": {
+		"WHERE": {},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_year",
+				"mingrade"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_year"
+			],
+			"APPLY": [
+				{
+					"mingrade": {
+						"MIN": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_year": 1900,
+			"mingrade": 0
+		},
+		{
+			"sections_year": 2007,
+			"mingrade": 46.5
+		},
+		{
+			"sections_year": 2008,
+			"mingrade": 33.2
+		},
+		{
+			"sections_year": 2009,
+			"mingrade": 0
+		},
+		{
+			"sections_year": 2010,
+			"mingrade": 33
+		},
+		{
+			"sections_year": 2011,
+			"mingrade": 42
+		},
+		{
+			"sections_year": 2012,
+			"mingrade": 50
+		},
+		{
+			"sections_year": 2013,
+			"mingrade": 4.5
+		},
+		{
+			"sections_year": 2014,
+			"mingrade": 48.9
+		},
+		{
+			"sections_year": 2015,
+			"mingrade": 39.03
+		},
+		{
+			"sections_year": 2016,
+			"mingrade": 4
+		}
+	]
+}

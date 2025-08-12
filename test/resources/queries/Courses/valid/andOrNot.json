@@ -1,0 +1,156 @@
+{
+    "title": "Valid AND OR NOT combination",
+    "input": {
+        "WHERE": {
+            "AND": [
+                {
+                    "OR": [
+                        {
+                            "IS": {
+                                "sections_dept": "cpsc"
+                            }
+                        },
+                        {
+                            "IS": {
+                                "sections_dept": "math"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "NOT": {
+                        "LT": {
+                            "sections_avg": 95
+                        }
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept",
+                "sections_avg",
+                "sections_instructor"
+            ],
+            "ORDER": "sections_avg"
+        }
+    },
+    "errorExpected": false,
+    "expected": [
+        {
+            "sections_dept": "math",
+            "sections_avg": 95,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 95,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 95,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "cpsc",
+            "sections_avg": 95,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 95.56,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 95.56,
+            "sections_instructor": "gordon, julia yulia"
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 95.67,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 95.67,
+            "sections_instructor": "murugan, mathav"
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 96.25,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 96.25,
+            "sections_instructor": "wei, juncheng"
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 96.33,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 96.44,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 96.44,
+            "sections_instructor": "karu, kalle"
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 96.83,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 96.83,
+            "sections_instructor": "nachmias, asaf"
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 97.09,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 97.09,
+            "sections_instructor": "laba, izabella"
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 97.25,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 97.25,
+            "sections_instructor": "fraser, ailana"
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 97.48,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 97.48,
+            "sections_instructor": "karu, kalle"
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 99.78,
+            "sections_instructor": ""
+        },
+        {
+            "sections_dept": "math",
+            "sections_avg": 99.78,
+            "sections_instructor": "gomez, jose"
+        }
+    ]
+}

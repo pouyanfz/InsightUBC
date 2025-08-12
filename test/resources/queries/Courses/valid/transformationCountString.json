@@ -1,0 +1,95 @@
+{
+	"title": "Simple count test with string",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*bradley*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"count"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_instructor"
+			],
+			"APPLY": [
+				{
+					"count": {
+						"COUNT": "sections_title"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "quinton, bradley",
+			"count": 1
+		},
+		{
+			"sections_instructor": "maguire, bradley david",
+			"count": 1
+		},
+		{
+			"sections_instructor": "miller, bradley",
+			"count": 3
+		},
+		{
+			"sections_instructor": "bradley, alexandra",
+			"count": 1
+		},
+		{
+			"sections_instructor": "au, nicholas;bradley, amanda;keown, paul anthony;scott, mark;vercauteren, suzanne",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda;godolphin, william;huynh, hanh;keller, bernd",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda;godolphin, william;huynh, hanh;park, carol",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda;godolphin, william;sutherland, michael",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda;godolphin, william;huynh, hanh",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda;tai, jenny",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda;huynh, hanh;junker, anne kristine;magil, alexander;quandt, jacqueline",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda;huynh, hanh;issa, maria;junker, anne kristine;magil, alexander;tai, joseph",
+			"count": 1
+		},
+		{
+			"sections_instructor": "bradley, amanda;huynh, hanh;junker, anne kristine;magil, alexander;quandt, jacqueline;zaph, colby",
+			"count": 1
+		},
+		{
+			"sections_instructor": "murray, bradley",
+			"count": 3
+		},
+		{
+			"sections_instructor": "powers, bradley",
+			"count": 3
+		}
+	]
+}

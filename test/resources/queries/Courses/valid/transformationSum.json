@@ -1,0 +1,68 @@
+{
+	"title": "Simple sum test",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "klonsky, elisha"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"sections_year",
+				"totalpassed"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_instructor",
+				"sections_year"
+			],
+			"APPLY": [
+				{
+					"totalpassed": {
+						"SUM": "sections_pass"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": false,
+	"expected": [
+		{
+			"sections_instructor": "klonsky, elisha",
+			"sections_year": 2011,
+			"totalpassed": 295
+		},
+		{
+			"sections_instructor": "klonsky, elisha",
+			"sections_year": 2009,
+			"totalpassed": 247
+		},
+		{
+			"sections_instructor": "klonsky, elisha",
+			"sections_year": 2012,
+			"totalpassed": 305
+		},
+		{
+			"sections_instructor": "klonsky, elisha",
+			"sections_year": 2015,
+			"totalpassed": 309
+		},
+		{
+			"sections_instructor": "klonsky, elisha",
+			"sections_year": 2014,
+			"totalpassed": 307
+		},
+		{
+			"sections_instructor": "klonsky, elisha",
+			"sections_year": 2013,
+			"totalpassed": 332
+		},
+		{
+			"sections_instructor": "klonsky, elisha",
+			"sections_year": 2010,
+			"totalpassed": 221
+		}
+	]
+}

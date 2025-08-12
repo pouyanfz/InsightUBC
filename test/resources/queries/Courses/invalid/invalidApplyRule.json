@@ -1,0 +1,30 @@
+{
+	"title": "Query has invalid apply rule",
+	"input": {
+		"WHERE": {
+			"IS": {
+				"sections_instructor": "*loewen, philip*"
+			}
+		},
+		"OPTIONS": {
+			"COLUMNS": [
+				"sections_instructor",
+				"overallAvg"
+			]
+		},
+		"TRANSFORMATIONS": {
+			"GROUP": [
+				"sections_instructor"
+			],
+			"APPLY": [
+				{
+					"overallAvg": {
+						"wrong_keys": "sections_avg"
+					}
+				}
+			]
+		}
+	},
+	"errorExpected": true,
+	"expected": "InsightError"
+}

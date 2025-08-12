@@ -1,0 +1,19 @@
+{
+    "title": "id has underscore",
+    "input": {
+        "WHERE": {
+            "GT": {
+                "sec_tions_avg": 87
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_uu_id",
+                "sect_ions_avg"
+            ],
+            "ORDER": "sec_tions_avg"
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}

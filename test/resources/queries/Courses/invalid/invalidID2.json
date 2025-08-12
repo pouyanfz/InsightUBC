@@ -1,0 +1,38 @@
+{
+    "title": "query with invalid id (varied field casing)",
+    "input": {
+        "WHERE": {
+            "OR": [
+                {
+                    "AND": [
+                        {
+                            "GT": {
+                                "sections_pass": 50
+                            }
+                        },
+                        {
+                            "IS": {
+                                "sections_Title": "intro*"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "EQ": {
+                        "sections_audit": 5
+                    }
+                }
+            ]
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "sections_dept",
+                "sections_title",
+                "sections_pass"
+            ],
+            "ORDER": "sections_pass"
+        }
+    },
+    "errorExpected": true,
+    "expected": "InsightError"
+}
